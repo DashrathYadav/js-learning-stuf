@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 {
 var apple = "apple";
 
@@ -24,3 +24,26 @@ eat(() => {
 })
 
 apple = "mago"
+
+*/
+
+let color='green';
+
+const apple={
+    color:'red',
+    fruit:true,
+    getColor:function(){
+        console.log(` I am apple \n I am ${this.color} is color`)
+    
+    const fun=function(){
+        console.log("this is fun function this",this);
+    }
+
+    fun();
+    },
+
+    
+}
+
+
+apple.getColor();
