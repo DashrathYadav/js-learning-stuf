@@ -7,10 +7,7 @@ console.log(a)
 
 
 ------------------------------------------------------------
-
-
  function hoisting
-
 
 console.log("before decleration calling sleep()")
 sleep()
